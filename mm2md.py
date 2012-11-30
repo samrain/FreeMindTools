@@ -64,7 +64,7 @@ def main():
     mmdir = '/home/rain/download'
     mddir = '/home/rain/doc/samrain.github.com/_posts'
     mblog = MakeBlogInGithub()
-    mmFilename = 'Sublime Text2.mm'
+    mmFilename = '程序员的阅读清单.mm'
     mdFilename = mblog._getconf(mmFilename)['mdfname']
 
     mm = file(os.path.join(mmdir,mmFilename),'r')

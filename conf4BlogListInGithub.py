@@ -28,5 +28,26 @@ bloglist = {
     'category': 'tech',
     'tags': '轻,文本编辑器,ide',
     'title': 'Sublime Text2简介',
-    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIN1ZzSTg5TmQyVzA'}
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIN1ZzSTg5TmQyVzA'},
+'Github简单使用.mm': {
+    'mdfname': '2012-11-27-Simple-to-use-Github.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'git,版本控制系统,在线代码托管,个人博客,项目博客,产品博客',
+    'title': 'Github简单使用',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeILXhqWG1tZmVYT28'},
+'双软认证.mm': {
+    'mdfname': '2012-11-28-The-identification-software-companies-and-software-product-registration.md',
+    'layout': 'post',
+    'category': 'company',
+    'tags': '资质认证,企业优惠,减免税,双软认证,双软认定',
+    'title': 'what are 双软认证',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIRGQ2NTJkQng5a1U'},
+'程序员的阅读清单.mm': {
+    'mdfname': '2012-11-30-Programmer-reading-list.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': '程序员,阅读,阅读清单,教科书,课外读物',
+    'title': '程序员的阅读清单',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIdkY2RVdSLWtLc0U'}
 }
