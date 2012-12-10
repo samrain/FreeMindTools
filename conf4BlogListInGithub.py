@@ -49,5 +49,19 @@ bloglist = {
     'category': 'tech',
     'tags': '程序员,阅读,阅读清单,教科书,课外读物',
     'title': '程序员的阅读清单',
-    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIdkY2RVdSLWtLc0U'}
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIdkY2RVdSLWtLc0U'},
+'通过Github建博客.mm': {
+    'mdfname': '2012-12-10-Built-blog-by-github.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'git,版本控制系统,在线代码托管,个人博客,建博客',
+    'title': '通过Github建博客',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIRVczRmZtRV85RFk'},
+'用Freemind写博客.mm': {
+    'mdfname': '2012-12-10-write-blog-by-freemind.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'git,版本控制系统,在线代码托管,个人博客,建博客',
+    'title': '用Freemind写博客',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIdXZ1enJYbUNEV2M'}
 }

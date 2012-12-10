@@ -64,7 +64,7 @@ def main():
     mmdir = '/home/rain/download'
     mddir = '/home/rain/doc/samrain.github.com/_posts'
     mblog = MakeBlogInGithub()
-    mmFilename = '程序员的阅读清单.mm'
+    mmFilename = '用Freemind写博客.mm'
     mdFilename = mblog._getconf(mmFilename)['mdfname']
 
     mm = file(os.path.join(mmdir,mmFilename),'r')
