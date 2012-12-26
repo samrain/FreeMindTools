@@ -1,13 +1,13 @@
 #!/usr/bin/env python
-# -*- encoding: utf-8 -*-
+# encoding: utf-8
 bloglist = {
-    'default.mm': {
+    'default': {
         'mdfname': 'default.md',
         'layout': 'post',
-        'category': u'学习',
+        'category': '学习',
         'tags': 'default-tags',
         'title': 'default-title',
-        'mmLink': None},
+        'mmLink': '#'},
 '差额选举的奥秘.mm': {
 	'mdfname': '2012-11-19-What\'s-the-Competitive-election.md',
     'layout': 'post',
@@ -63,5 +63,12 @@ bloglist = {
     'category': 'tech',
     'tags': 'git,版本控制系统,在线代码托管,个人博客,建博客',
     'title': '用Freemind写博客',
-    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIdXZ1enJYbUNEV2M'}
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIdXZ1enJYbUNEV2M'},
+'实习生课程表.mm': {
+    'mdfname': '2012-12-16-intern-curriculum.md',
+    'layout': 'post',
+    'category': 'manage',
+    'tags': '实习生,课程,实习生课程',
+    'title': '实习生课程表',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIZzduOURwampJaHM'}
 }
