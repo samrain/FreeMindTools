@@ -70,5 +70,33 @@ bloglist = {
     'category': 'manage',
     'tags': '实习生,课程,实习生课程',
     'title': '实习生课程表',
-    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIZzduOURwampJaHM'}
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIZzduOURwampJaHM'},
+'旅游风景区清单.mm': {
+    'mdfname': '2012-12-28-list-of-tourism-scenic-area.md',
+    'layout': 'post',
+    'category': 'family',
+    'tags': '旅游,风景区,旅行',
+    'title': '旅游风景区清单',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeISDFnbTVFZjgwSTQ'},
+'2013元旦温泉游.mm': {
+    'mdfname': '2012-12-28-2013-new-year-day-spa-tour.md',
+    'layout': 'post',
+    'category': 'family',
+    'tags': '2013,元旦,温泉,黄山,歙县,旅行',
+    'title': '2013元旦温泉游',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIRlk2YTNEZ08zaWc'},
+'江浙温泉大全.mm': {
+    'mdfname': '2012-12-28-2013-Jiangsu-and-zhejiang-spa-daquan.md',
+    'layout': 'post',
+    'category': 'family',
+    'tags': '温泉,江苏,浙江,上海,旅行',
+    'title': '江浙温泉大全',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIdnVkcjdTOXQxMlU'},
+'如何把VIM变成Python IDE.mm': {
+    'mdfname': '2012-08-16-how-to-become-VIM-python-IDE.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'VIM,python,IDE',
+    'title': '如何把VIM变成Python IDE',
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIaFMzZnJ4UWgwdEU'}
 }

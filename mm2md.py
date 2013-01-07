@@ -14,24 +14,75 @@ class MMTransform():
         mmtree = ElementTree.XML(mmFileContent)
         for node in mmtree.find('node').findall('node'):
             self._mm2SimpleMd(node, md)
-        return os.linesep.join(md)
+        linesep = os.linesep
+        return linesep.join(md)
 
-    def _mm2SimpleMd(self, node, md, num=0):
+    def mm2textile(self, mmFileContent):
+        textile = []
+        mmtree = ElementTree.XML(mmFileContent)
+        for node in mmtree.find('node').findall('node'):
+            self._mm2SimpleTextile(node, textile)
+        linesep = os.linesep
+        return linesep.join(textile)
+
+    def _mm2SimpleMd(self, node, md, num=1):
         if node.get('TEXT'):
             branchcontent = []
-            '''when find html tag,not transform'''
-            if node.attrib['TEXT'].find('<'):
-                if num == 1:
-                    branchcontent = ['- ']
-                elif num == 0:
-                    branchcontent = ['# ']
-                else:
-                    branchcontent = ['        ']
-            branchcontent.append(node.attrib['TEXT'])
-            md.append(''.join(branchcontent))
+            i = 0
+            j = 0
+            linesep = ''
+            if num < 3:
+                linesep = os.linesep
+                if node.getchildren():
+                    branchcontent.append(linesep)
+                    branchcontent.append('#')
+                    while i < num:
+                        branchcontent.append('#')
+                        i = i+1
+                    branchcontent.append(' ')
+            else:
+                if node.getchildren():
+                    while j < num-3:
+                        branchcontent.append(' ')
+                        j = j+1
+                    branchcontent.append('- ')
+            self._dumpstr(node,md,branchcontent,linesep)
+            self._recursionMm2SimpleMd(node,md,num)
 
-            for childbranch in node.getchildren():
-                self._mm2SimpleMd(childbranch, md, num + 1)
+
+    def _dumpstr(self, node, md, branchcontent, linesep=''):
+        branchcontent.append(node.attrib['TEXT'])
+        branchcontent.append(linesep)
+        md.append(''.join(branchcontent))
+
+    def _recursionMm2SimpleTextile(self,node,md,num):
+        for childbranch in node.getchildren():
+            self._mm2SimpleTextile(childbranch, md, num + 1)
+
+    def _recursionMm2SimpleMd(self,node,md,num):
+        for childbranch in node.getchildren():
+            self._mm2SimpleMd(childbranch, md, num + 1)
+
+    def _mm2SimpleTextile(self, node, md, num=1):
+        if node.get('TEXT'):
+            branchcontent = []
+            i = 0
+            linesep = ''
+            if num < 3:
+                linesep = os.linesep
+                if node.getchildren():
+                    branchcontent.append(os.linesep)
+                    branchcontent.append('h')
+                    branchcontent.append(str(num))
+                    branchcontent.append('. ')
+            else:
+                if node.getchildren():
+                    while i < num-2:
+                        branchcontent.append('*')
+                        i = i+1
+                    branchcontent.append(' ')
+            self._dumpstr(node,md,branchcontent,linesep)
+            self._recursionMm2SimpleTextile(node,md,num)
 
 
 class MakeBlogInGithub():
@@ -54,23 +105,26 @@ class MakeBlogInGithub():
         prefix.append('[思维导图文件下载]('+config['mmLink']+')')
         prefix.append(md)
         return os.linesep.join(prefix)
-         
-
 
 def main():
     mmdir = '/home/rain/download'
-    mddir = '/home/rain/download'
-    # mddir = '/home/rain/doc/samrain.github.com/_posts'
+    # mddir = '/home/rain/download'
+    mddir = '/home/rain/doc/samrain.github.com/_posts'
     mblog = MakeBlogInGithub()
-    mmFilename = '工作报告-淘钢网IT部-2012年度.mm'
+    mmFilename = '2013元旦温泉游.mm'
+    textileFilename = 'textile.txt'
     mdFilename = mblog._getconf(mmFilename)['mdfname']
 
-    mm = file(os.path.join(mmdir,mmFilename),'r')
-    md = file(os.path.join(mddir,mdFilename),'w')
+    mm = file(os.path.join(mmdir,mmFilename),'rb')
+    md = file(os.path.join(mddir,mdFilename),'wb')
+    textile = file(os.path.join(mddir,textileFilename),'wb')
+    
     transform = MMTransform()
     md.write(mblog.md2blog(transform.mm2md(mm.read()).encode('utf8'), mmFilename))
+    # textile.write(transform.mm2textile(mm.read()).encode('utf8'))
     mm.close()
     md.close()
+    textile.close()
 
     
 
