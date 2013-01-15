@@ -98,5 +98,12 @@ bloglist = {
     'category': 'tech',
     'tags': 'VIM,python,IDE',
     'title': '如何把VIM变成Python IDE',
-    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIaFMzZnJ4UWgwdEU'}
+    'mmLink': 'https://docs.google.com/open?id=0B1DrsqrLRzeIaFMzZnJ4UWgwdEU'},
+'旅游-清迈-攻略.mm': {
+    'mdfname': '2013-01-15-Chiang-Mai-travel-Raiders.md',
+    'layout': 'post',
+    'category': 'family',
+    'tags': '旅游,清迈,攻略',
+    'title': '清迈旅游攻略',
+    'mmLink': 'https://docs.google.com/file/d/0B1DrsqrLRzeIUUxMWWxNVTltMHM/edit'}
 }

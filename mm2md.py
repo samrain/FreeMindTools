@@ -111,7 +111,7 @@ def main():
     # mddir = '/home/rain/download'
     mddir = '/home/rain/doc/samrain.github.com/_posts'
     mblog = MakeBlogInGithub()
-    mmFilename = '2013元旦温泉游.mm'
+    mmFilename = '旅游-清迈-攻略.mm'
     textileFilename = 'textile.txt'
     mdFilename = mblog._getconf(mmFilename)['mdfname']
 
