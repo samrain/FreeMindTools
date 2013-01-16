@@ -4,7 +4,6 @@
 from __future__ import unicode_literals
 from xml.etree import ElementTree
 import os
-import conf4BlogListInGithub
 import sys
 import yaml
 
