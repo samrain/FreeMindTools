@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
+from __future__ import unicode_literals
+
 bloglist = {
     'default': {
         'mdfname': 'default.md',
@@ -105,5 +108,33 @@ bloglist = {
     'category': 'family',
     'tags': '旅游,清迈,攻略',
     'title': '清迈旅游攻略',
-    'mmLink': 'https://docs.google.com/file/d/0B1DrsqrLRzeIUUxMWWxNVTltMHM/edit'}
+    'mmLink': 'https://docs.google.com/file/d/0B1DrsqrLRzeIUUxMWWxNVTltMHM/edit'},
+'Git命令释义.mm': {
+    'mdfname': '2013-01-15-Git-command-Interpretation.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'Git,Git命令',
+    'title': 'Git命令释义',
+    'mmLink': 'https://docs.google.com/file/d/0B1DrsqrLRzeIRGFfRGdlYkJOU0k/edit'},
+'使用VPN-命令行CLI方式-ubuntu.mm': {
+    'mdfname': '2013-01-15-use-VPN-by-CLI-command-on-Ubuntu.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'VPN,Ubuntu,CLI',
+    'title': '在Ubuntu上使用命令行CLI方式使用VPN',
+    'mmLink': 'https://docs.google.com/file/d/0B1DrsqrLRzeIbWRnWDNwT0NtcG8/edit'},
+'Install Gentoo In Virtualbox.mm': {
+    'mdfname': '2013-01-15-Install-Gentoo-In-Virtualbox.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'Gentoo,Virtualbox,虚拟机,linux',
+    'title': 'Install Gentoo In Virtualbox',
+    'mmLink': 'https://docs.google.com/file/d/0B1DrsqrLRzeIT2t2cDlpMWI3anM/edit'},
+'解密磁盘碎片.mm': {
+    'mdfname': '2013-01-15-Disk-fragmentation.md',
+    'layout': 'post',
+    'category': 'tech',
+    'tags': 'fragmentation,disk,linux,磁盘碎片',
+    'title': '解密磁盘碎片',
+    'mmLink': 'https://docs.google.com/file/d/0B1DrsqrLRzeIbTZEU2dMQkJ0MjA/edit'}
 }

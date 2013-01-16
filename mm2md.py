@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from __future__ import unicode_literals
 from xml.etree import ElementTree
 import os
 import conf4BlogListInGithub
+import sys
+
 
 
 class MMTransform():
@@ -106,27 +109,37 @@ class MakeBlogInGithub():
         prefix.append(md)
         return os.linesep.join(prefix)
 
-def main():
+def usage():
+    print '''
+    '''
+
+
+def main(argv):
     mmdir = '/home/rain/download'
-    # mddir = '/home/rain/download'
-    mddir = '/home/rain/doc/samrain.github.com/_posts'
+    mddir = '/home/rain/download'
+    # mddir = '/home/rain/doc/samrain.github.com/_posts'
     mblog = MakeBlogInGithub()
-    mmFilename = '旅游-清迈-攻略.mm'
+    mmFilename = 'MySQL主从同步.mm'
+    if len(argv) > 1:
+        mmFilename = argv[1].decode('utf8')
     textileFilename = 'textile.txt'
     mdFilename = mblog._getconf(mmFilename)['mdfname']
 
     mm = file(os.path.join(mmdir,mmFilename),'rb')
     md = file(os.path.join(mddir,mdFilename),'wb')
-    textile = file(os.path.join(mddir,textileFilename),'wb')
+    # textile = file(os.path.join(mddir,textileFilename),'wb')
     
     transform = MMTransform()
-    md.write(mblog.md2blog(transform.mm2md(mm.read()).encode('utf8'), mmFilename))
+    mdContent = transform.mm2md(mm.read())
+    blogContent = mblog.md2blog(mdContent,mdFilename)
+    md.write(blogContent.encode('utf8'))
     # textile.write(transform.mm2textile(mm.read()).encode('utf8'))
     mm.close()
     md.close()
-    textile.close()
+    # textile.close()
+    print os.path.join(mddir,mdFilename) + ' is OK!'
 
     
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv)
