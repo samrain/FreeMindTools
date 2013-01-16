@@ -6,6 +6,7 @@ from xml.etree import ElementTree
 import os
 import conf4BlogListInGithub
 import sys
+import yaml
 
 
 
@@ -90,14 +91,21 @@ class MMTransform():
 
 class MakeBlogInGithub():
     """make blog by markdown file in github.com"""
-    def _getconf(self,mdFilename):
+    def _getconfFromPy(self,mdFilename):
         mdfile = 'default'
         if  conf4BlogListInGithub.bloglist.has_key(mdFilename):
             mdfile = mdFilename
         return conf4BlogListInGithub.bloglist[mdfile]
 
-    def md2blog(self, md, mdFilename):
-        config = self._getconf(mdFilename)
+    def _getconfFromYaml(self,configFilename,mdFilename):
+        mdfile = 'default'
+        config = file(configFilename,'rb')
+        config.close()
+        if  config.has_key(mdFilename):
+            mdfile = mdFilename
+        return config[mdfile]
+
+    def md2blog(self, md, config, mdFilename):
         prefix = []
         prefix.append('---')
         prefix.append('layout : '+config['layout'])
@@ -113,33 +121,46 @@ def usage():
     print '''
     '''
 
+def getconf(conf_dic, title):
+    key = 'default.mm'
+    if conf_dic.has_key(title):
+        key = title
+    return conf_dic[key]
+
 
 def main(argv):
-    mmdir = '/home/rain/download'
-    mddir = '/home/rain/download'
-    # mddir = '/home/rain/doc/samrain.github.com/_posts'
+    confile = file('app.yaml','rb')
+    config = yaml.load(confile)
+    dirconf = 'file_dir'
+    mmdir = config[dirconf]['mm']
+    mddir = config[dirconf]['md']
+
     mblog = MakeBlogInGithub()
-    mmFilename = 'MySQL主从同步.mm'
-    if len(argv) > 1:
-        mmFilename = argv[1].decode('utf8')
-    textileFilename = 'textile.txt'
-    mdFilename = mblog._getconf(mmFilename)['mdfname']
-
-    mm = file(os.path.join(mmdir,mmFilename),'rb')
-    md = file(os.path.join(mddir,mdFilename),'wb')
-    # textile = file(os.path.join(mddir,textileFilename),'wb')
-    
     transform = MMTransform()
-    mdContent = transform.mm2md(mm.read())
-    blogContent = mblog.md2blog(mdContent,mdFilename)
-    md.write(blogContent.encode('utf8'))
-    # textile.write(transform.mm2textile(mm.read()).encode('utf8'))
-    mm.close()
-    md.close()
-    # textile.close()
-    print os.path.join(mddir,mdFilename) + ' is OK!'
 
-    
+    if len(argv) > 1:
+        file_list = [argv[1]]
+    else:
+        file_list = [f_name for f_name in os.listdir(mmdir) if f_name.decode('utf8').endswith('mm')]
+
+    for f_in_name in file_list:
+        conf = getconf(config,f_in_name.decode('utf8'))
+        mmFilename = f_in_name
+        mdFilename = conf['mdfname']
+        mm = file(os.path.join(mmdir,mmFilename),'rb')
+        md = file(os.path.join(mddir,mdFilename),'wb')
+        mdContent = transform.mm2md(mm.read())
+        blogContent = mblog.md2blog(mdContent,conf,mdFilename)
+        md.write(blogContent.encode('utf8'))
+        mm.close()
+        md.close()
+        print os.path.join(mddir,mdFilename) + ' is OK!'
+    confile.close()
+    # textileFilename = 'textile.txt'
+    # textile = file(os.path.join(mddir,textileFilename),'wb')
+    # textile.write(transform.mm2textile(mm.read()).encode('utf8'))
+    # textile.close()
 
 if __name__ == "__main__":
     main(sys.argv)
+    # main([])
