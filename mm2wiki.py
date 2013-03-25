@@ -9,14 +9,14 @@ import yaml
 from mm2md import MMTransform
 
 def main(argv):
-    confile = file('app.yaml','rb')
+    confile = file('/home/rain/doc/FreeMindTools/app.yaml','rb')
     config = yaml.load(confile)
     dirconf = 'file_dir'
     mddir = config[dirconf]['md']
     mmdir = config[dirconf]['mm']
 
     textileFilename = 'wiki.txt'
-    mmFilename = '1301绩效结果-淘钢网-IT部.mm'
+    mmFilename = '青浦采莓农家乐130316.mm'
     mm = file(os.path.join(mmdir,mmFilename),'rb')
     textile = file(os.path.join(mddir,textileFilename),'wb')
     transform = MMTransform()

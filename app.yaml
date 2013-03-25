@@ -1,7 +1,7 @@
 file_dir:
     md: /home/rain/download
-    mm: /home/rain/download
-    # mddir:/home/rain/doc/samrain.github.com/_posts
+    mm: /home/rain/download/MM
+    # md:/home/rain/doc/samrain.github.com/_posts
 default.mm:
     mdfname: default.md
     layout: post
@@ -135,3 +135,129 @@ Install Gentoo In Virtualbox.mm:
     tags: fragmentation,disk,linux,磁盘碎片
     title: 解密磁盘碎片
     mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIN0otdUZvc2g0OTA/edit
+Chrome介绍.mm:
+    mdfname: 2013-03-11-Chrome.md
+    layout: post
+    category: tech
+    tags: chrome,browser,google,chromium
+    title: Chrome介绍
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIWk1TNXZOdkpMUGs/edit
+GOOGLE搜索从入门到精通.mm:
+    mdfname: 2013-03-11-google-search-tips.md
+    layout: post
+    category: tech
+    tags: google,search,tips
+    title: GOOGLE搜索从入门到精通
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIdFIzcENLWDJVTG8/edit?usp=sharing
+小儿常用药.mm:
+    mdfname: 2013-03-11-commonly-used-drugs-in-children.md
+    layout: post
+    category: family
+    tags: drugs,children,medicine,sickness,fault
+    title: 小儿常用药
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIUFVsY09QalI2aU0/edit?usp=sharing
+VI学习.mm:
+    mdfname: 2013-03-11-study-VI.md
+    layout: post
+    category: tech
+    tags: VI,VIM
+    title: 学习VI
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIODc4ZDhJQmI4Ym8/edit?usp=sharing
+PPT模板和素材.mm:
+    mdfname: 2013-03-18-PPT-templates-and-clip.md
+    layout: post
+    category: study
+    tags: PPT,template,clip,presentation
+    title: PPT模板和素材
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeINVgyeFpjN2N4ODA/edit?usp=sharing
+Gmail快捷键.mm:
+    mdfname: 2013-03-18-Gmail-shortcuts.md
+    layout: post
+    category: tech
+    tags: Gmail,shortcuts,google
+    title: Gmail快捷键
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeINWk1ZzZYWXZ2dE0/edit?usp=sharing
+个人知识管理平台.mm:
+    mdfname: 2013-03-21-personal-knowledge-management-platform.md
+    layout: post
+    category: study
+    tags: knowledge,manage,personal
+    title: 个人知识管理平台
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIaDl3YW1BYnhPMjA/edit?usp=sharing
+我的工具.mm:
+    mdfname: 2013-03-21-my-tools.md
+    layout: post
+    category: tech
+    tags: 工具,tool
+    title: 我的工具
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIbkJ1NmwycE90WUk/edit?usp=sharing
+ITIL.mm:
+    mdfname: 2013-03-25-learn-ITIL.md
+    layout: post
+    category: tech
+    tags: ITIL,learn
+    title: ITIL
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIeXZOQkp0OXBjMzA/edit?usp=sharing
+LearnPython.mm:
+    mdfname: 2013-03-25-learn-python.md
+    layout: post
+    category: tech
+    tags: python
+    title: LearnPython
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIcXFBNUpOdm5zaU0/edit?usp=sharing
+MeetingMinutes.mm:
+    mdfname: 2013-03-25-template-of-meeting-minutes.md
+    layout: post
+    category: tech
+    tags: meeting minutes,template
+    title: 会议纪要模版
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIc004MC1iWUFHRDA/edit?usp=sharing
+OPENERP.mm:
+    mdfname: 2013-03-25-learn-OPENERP.md
+    layout: post
+    category: tech
+    tags: OPENERP,ERP,python
+    title: OPENERP Step by Step
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIU2czNzAwQXp0YVk/edit?usp=sharing
+Redmine.mm:
+    mdfname: 2013-03-25-learn-redmine.md
+    layout: post
+    category: tech
+    tags: Redmine,issue management system,bug management system
+    title: learn Redmine
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIQWd5X0wwVGxKSlk/edit?usp=sharing
+Ubuntu@Termintor.mm:
+    mdfname: 2013-03-25-How-to-set-the-Terminator-copy-and-paste-shortcuts.md
+    layout: post
+    category: tech
+    tags: ubuntu,Termintor,shortcuts,copy,paste
+    title: 怎么设置Terminator中的复制和粘帖快捷键
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIenhmbGo4aHVCbDg/edit?usp=sharing
+家庭教育.mm:
+    mdfname: 2013-03-25-discuss-of-family-education.md
+    layout: post
+    category: tech
+    tags: 家庭,家庭教育,教育
+    title: 讨论家庭教育
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIaWFreGxEOHEtZUE/edit?usp=sharing
+企业文化摘录.mm:
+    mdfname: 2013-03-25-excerpts-of-corporate-culture.md
+    layout: post
+    category: tech
+    tags: 企业文化,文化,企业
+    title: 企业文化摘录
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIcmVGcU5ScjEtbkk/edit?usp=sharing
+购买全幅相机建议.mm:
+    mdfname: 2013-03-25-purchase-full-size-camera-proposals.md
+    layout: post
+    category: tech
+    tags: 购买,全幅相机,相机
+    title: 购买全幅相机建议
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIQkJRSm5IM2h3c3c/edit?usp=sharing
+组织技术社区会议-泉盛.mm:
+    mdfname: 2013-03-25-how-to-organize-the-technical-community-meeting.md
+    layout: post
+    category: manage
+    tags: 组织,技术社区,社区会议,技术社区会议,组织会议
+    title: 如何组织技术社区会议
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIWW55M1VvYkxyams/edit?usp=sharing

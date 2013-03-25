@@ -46,7 +46,7 @@ class MMTransform():
             else:
                 if node.getchildren():
                     while j < num-3:
-                        branchcontent.append(' ')
+                        branchcontent.append('    ')
                         j = j+1
                     branchcontent.append('- ')
             self._dumpstr(node,md,branchcontent,linesep)
@@ -128,7 +128,7 @@ def getconf(conf_dic, title):
 
 
 def main(argv):
-    confile = file('app.yaml','rb')
+    confile = file('/home/rain/doc/FreeMindTools/app.yaml','rb')
     config = yaml.load(confile)
     dirconf = 'file_dir'
     mmdir = config[dirconf]['mm']
