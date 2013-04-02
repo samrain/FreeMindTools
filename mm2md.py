@@ -66,12 +66,12 @@ class MMTransform():
         for childbranch in node.getchildren():
             self._mm2SimpleMd(childbranch, md, num + 1)
 
-    def _mm2SimpleTextile(self, node, md, num=1):
+    def _mm2SimpleTextile(self, node, md, num=2):
         if node.get('TEXT'):
             branchcontent = []
             i = 0
             linesep = ''
-            if num < 3:
+            if num < 4:
                 linesep = os.linesep
                 if node.getchildren():
                     branchcontent.append(os.linesep)

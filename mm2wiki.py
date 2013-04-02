@@ -16,7 +16,7 @@ def main(argv):
     mmdir = config[dirconf]['mm']
 
     textileFilename = 'wiki.txt'
-    mmFilename = '青浦采莓农家乐130316.mm'
+    mmFilename = '内部培训制度.mm'
     mm = file(os.path.join(mmdir,mmFilename),'rb')
     textile = file(os.path.join(mddir,textileFilename),'wb')
     transform = MMTransform()
