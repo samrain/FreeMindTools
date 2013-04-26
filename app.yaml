@@ -1,6 +1,6 @@
 file_dir:
     md: /home/rain/download
-    mm: /home/rain/download/MM
+    mm: /home/rain/download
     # md:/home/rain/doc/samrain.github.com/_posts
 default.mm:
     mdfname: default.md
@@ -324,3 +324,94 @@ Ubuntu@Termintor.mm:
     tags: 培训
     title: 内部培训制度
     mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIVG8zeVQtanZ0Ykk/edit?usp=sharing
+软件开发文档命名规范.mm:
+    mdfname: 2013-04-02-software-development-document-naming-conventions.md
+    layout: post
+    category: tech
+    tags: 软件开发,文档,命名,规范
+    title: 软件开发文档命名规范
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIUWJkd1RidGFsR0E/edit?usp=sharing
+岗位职责-信息技术部.mm:
+    mdfname: 2013-04-07-responsibilities-of-the-ministry-of-information-technology.md
+    layout: post
+    category: manage
+    tags: 信息技术部,岗位,职责
+    title: 信息技术部 岗位职责
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIUEF3LUtGQ3huUG8/edit?usp=sharing
+CIO工作内容.mm:
+    mdfname: 2013-04-08-CIO-work.md
+    layout: post
+    category: manage
+    tags: CIO,工作内容,工作,内容,管理
+    title: CIO工作内容片段
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIaGVvdkUyOUNBQms/edit?usp=sharing
+公正、平等、共享.mm:
+    mdfname: 2013-04-10-fair-equality-share.md
+    layout: post
+    category: manage
+    tags: 公正,平等,共享
+    title: 公正、平等、共享
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIMnFyUzFCWjZqOXc/edit?usp=sharing
+信息技术中心职责.mm:
+    mdfname: 2013-04-10-the-duties-of-the-information-technology-center.md
+    layout: post
+    category: manage
+    tags: 信息技术,职责,信息技术中心,职责信息技术中心职责
+    title: 信息技术中心职责
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIdWVrQU81RjBldjg/edit?usp=sharing
+看板.mm:
+    mdfname: 2013-04-12-kanban.md
+    layout: post
+    category: manage
+    tags: 看板,敏捷,软件工程
+    title: 看板的一些总结
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIQjVpbEVKeUlPYlk/edit?usp=sharing
+培训的一般流程.mm:
+    mdfname: 2013-04-12-training-process.md
+    layout: post
+    category: manage
+    tags: 培训,流程,培训流程
+    title: 培训的一般流程
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIRVYzOUhWZGF6ZFk/edit?usp=sharing
+上线前准备.mm:
+    mdfname: 2013-04-23-prepare-for-go-live.md
+    layout: post
+    category: tech
+    tags: 上线,准备
+    title: 上线前准备
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeISmFFR0Y0d3NvNG8/edit?usp=sharing
+企业文化墙.mm:
+    mdfname: 2013-04-23-enterprise-culture-wall.md
+    layout: post
+    category: tech
+    tags: 企业文化,文化墙
+    title: 企业文化墙
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIa0M4aXZjUVRMUW8/edit?usp=sharing
+吴式团队.mm:
+    mdfname: 2013-04-23-wu-style-team.md
+    layout: post
+    category: manage
+    tags: 团队
+    title: 吴式团队
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIcFBMSTlHZlpkWEE/edit?usp=sharing
+短句.mm:
+    mdfname: 2013-04-23-short-sentences.md
+    layout: post
+    category: manage
+    tags: 团队
+    title: 名句摘录（转）
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIRWMyNGNtY3pUdlU/edit?usp=sharing
+Evernote使用.mm:
+    mdfname: 2013-04-23-use-evernote.md
+    layout: post
+    category: manage
+    tags: evernote,个人知识管理
+    title: 我是怎么使用evernote
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIWmVZOG14el9lQms/edit?usp=sharing
+上海活动场所.mm:
+    mdfname: 2013-04-23-shanghai-venues.md
+    layout: post
+    category: manage
+    tags: 上海活动场所,活动场所,上海活动,场所
+    title: 上海活动场所
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIeEpYRXYwLVRyNFE/edit?usp=sharing
