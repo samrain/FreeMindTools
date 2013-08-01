@@ -464,3 +464,45 @@ PPT工具.mm:
     tags: Google日历,Google,日历
     title: 怎么用Google日历
     mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIaWFWVDhqX3RRdjQ/edit?usp=sharing
+申报高新技术企业.mm:
+    mdfname: 2013-07-31-how-to-be-a-high-tech-company.md
+    layout: post
+    category: manage
+    tags: company,high-tech
+    title: 如何申报高新技术企业
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIRVhRZE81ek9VTDg/edit?usp=sharing
+申报政府科技项目的价值.mm:
+    mdfname: 2013-07-31-what-is-the-value-of-doing-the-government-high-tech-project.md
+    layout: post
+    category: manage
+    tags: government,high-tech,project
+    title: 申报政府科技项目的价值
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIREJZRWYwSVg1OEk/edit?usp=sharing
+导入google日历.mm:
+    mdfname: 2013-07-31-how-to-import-into-google-calendar.md
+    layout: post
+    category: study
+    tags: google,google calendar,import
+    title: 怎样导入google日历
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIMk9lSzd0Q0trNjA/edit?usp=sharing
+学习golang.mm:
+    mdfname: 2013-07-31-study-golang.md
+    layout: post
+    category: study
+    tags: golang,go program
+    title: 学习golang
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIWWhKUnVDbTJJSUE/edit?usp=sharing
+ThoughtWorks(中国)程序员读书雷达.mm:
+    mdfname: 2013-07-31-ThoughtWorks-(China)-programmer-reading-radar.md
+    layout: post
+    category: study
+    tags: ThoughtWorks,programe
+    title: ThoughtWorks(中国)程序员读书雷达
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIbVpLZWlEZ2kycjA/edit?usp=sharing
+Emacs.mm:
+    mdfname: 2013-07-31-play-Emacs.md
+    layout: post
+    category: study
+    tags: Emacs,text editor
+    title: 玩转Emacs
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIMk01bnlmVXowMms/edit?usp=sharing
