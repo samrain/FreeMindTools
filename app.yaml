@@ -401,7 +401,7 @@ CIO工作内容.mm:
     tags: 团队
     title: 名句摘录（转）
     mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIRWMyNGNtY3pUdlU/edit?usp=sharing
-Evernote使用.mm:
+我是怎么用Evernote.mm:
     mdfname: 2013-04-23-use-evernote.md
     layout: post
     category: manage
@@ -506,3 +506,38 @@ Emacs.mm:
     tags: Emacs,text editor
     title: 玩转Emacs
     mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIMk01bnlmVXowMms/edit?usp=sharing
+Nmap初体验.mm:
+    mdfname: 2013-09-03-first-experience-of-Nmap.md
+    layout: post
+    category: study
+    tags: Nmap,黑客,工具,端口扫描,网络
+    title: Nmap初体验
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIQ1g2bmk0aGh2S0U/edit?usp=sharing
+网络安全工具.mm:
+    mdfname: 2013-09-03-network-security-tools.md
+    layout: post
+    category: study
+    tags: 黑客,工具,网络,安全
+    title: 十大网络安全工具
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeITWxoOXU1bXpTNXc/edit?usp=sharing
+耳放MDAD Mini满血复活.mm:
+    mdfname: 2013-09-03-MDAD-Mini-resurrection.md
+    layout: post
+    category: tech
+    tags: 耳放,linux,音乐,驱动,MDAD Mini
+    title: 耳放MDAD Mini满血复活
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIMk01bnlmVXowMms/edit?usp=sharing
+露营烧烤准备材料.mm:
+    mdfname: 2013-09-05-prepare-materials-for-Camping-and-BBQ.md
+    layout: post
+    category: family
+    tags: 露营,烧烤,帐篷
+    title: 露营烧烤准备材料
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeIdXhTRDlrd29xZm8/edit?usp=sharing
+用Emacs编辑Markdown.mm:
+    mdfname: 2013-09-10-edit-markdown-file-with-Emacs.md
+    layout: post
+    category: study
+    tags: emacs,markdown,md,md2html
+    title: 用Emacs编辑Markdown
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing
