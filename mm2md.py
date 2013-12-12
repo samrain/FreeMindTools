@@ -128,7 +128,7 @@ def getconf(conf_dic, title):
 
 
 def main(argv):
-    confile = file('/home/rain/doc/FreeMindTools/app.yaml','rb')
+    confile = file('/home/rain/code/FreeMindTools/app.yaml','rb')
     config = yaml.load(confile)
     dirconf = 'file_dir'
     mmdir = config[dirconf]['mm']

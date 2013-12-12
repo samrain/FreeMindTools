@@ -1,6 +1,6 @@
 file_dir:
-    md: /home/rain/download
-    mm: /home/rain/download
+    md: /home/rain
+    mm: /home/rain
     # md:/home/rain/doc/samrain.github.com/_posts
 default.mm:
     mdfname: default.md
@@ -541,3 +541,28 @@ Nmap初体验.mm:
     tags: emacs,markdown,md,md2html
     title: 用Emacs编辑Markdown
     mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing
+快速安装我的Lubuntu.mm:
+    mdfname: 2013-10-16-install-Lubuntu-faster.md
+    layout: post
+    category: study
+    tags: linux,ubuntu,lubuntu
+    title: 快速安装我的Lubuntu
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing
+客户营销流程最佳实践.mm:
+    mdfname: 2013-12-12-customer-marketing-process-best-practices.md
+    layout: post
+    category: sale
+    tags: 客户,营销,流程,实践,sale,process
+    title: 客户营销流程最佳实践
+    mmLink: https://drive.google.com/file/d/0B1DrsqrLRzeISnNNNDJWaGN4NGM/edit?usp=sharing
+园区智能化方案.mm:
+    mdfname: 2013-12-12-park-intelligent-solutions.md
+    layout: post
+    category: tech
+    tags: 园区,智能化,物流,
+    title: 园区智能化方案
+    mmLink: https://docs.google.com/file/d/0B1DrsqrLRzeITG03OXphM2R1eXc/edit?usp=sharing
+
+
+
+
